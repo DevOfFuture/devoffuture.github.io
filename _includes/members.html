@@ -1,0 +1,46 @@
+<!-- ::::::::::::::::::::::::::: Our Advisor Area Start ::::::::::::::::::::::::::: -->
+<section class="our_advisor_area section_padding_100_70" id="advisor">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- Section Heading Start -->
+                <div class="section_heading">
+                    <p>our quality Team</p>
+                    <h3>Creative Advisor</h3>
+                </div>
+                <!-- Section Heading End -->
+            </div>
+        </div>
+        <div class="row">
+          
+              {% for member in site.members | sort: 'name' %}
+            <!-- Single advisor profile area start -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="single_advisor_profile item" itemscope itemtype="http://schema.org/Person">
+                    <!-- Single advisor profile thumb -->
+                    <div class="advisor_thumb">
+                        <img src="/img/team/{{ member.avatar }}" alt="{{ member.name }}" itemprop="image" width="333" height="430">
+                    </div>
+                    <!-- Single advisor profile details -->
+                    <div class="single_advisor_details_info">
+                        <h4>{{ member.name }}</h4>
+                        <p class="designation">{{ member.role }}</p>
+                        <!-- Single advisor social link -->
+                        <div class="advisor_social_info">
+                            <div class="footer_social_area">
+                                <a class="btn btn-default btn-xs" href="https://facebook.com/{{ member.facebook }}" role="button"><i class="icofont icofont-social-facebook"></i></a>
+                                <a class="btn btn-default btn-xs" href="mailto:{{ member.email }}" role="button"><i class="icofont icofont-email"></i></a>
+                                <a class="btn btn-default btn-xs" href="https://github.com/{{ member.github }}" role="button"><i class="icofont icofont-social-github"></i></a>
+                                <a class="btn btn-default btn-xs" href="skype:{{ member.skype }}?call" role="button"><i class="icofont icofont-social-skype"></i></a>
+                                <a class="btn btn-default btn-xs" href="https://twitter.com/{{ member.twitter }}" role="button"><i class="icofont icofont-social-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- ::::::::::::::::::::::::::: Our advisor Area End ::::::::::::::::::::::::::: -->
