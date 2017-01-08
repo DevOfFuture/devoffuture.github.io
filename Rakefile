@@ -4,13 +4,18 @@ require 'html-proofer'
 
 desc "Test the html and links"
 task :test do
-  puts "Building the site"
-  sh "bundle exec jekyll build"
-  puts "Checking site"
-  HTMLProofer.check_directory("./_site").run
+  puts "The logic of Test Task must be here"
 end
 
 desc "Deploy the website to Github"
 task :deploy => [:test] do
-  puts "Starting Deployment"
+  puts "The Deployment logic must be here"
+end
+
+desc "Add new member to the list"
+task :member do
+  puts "The logic to add new member will be here"
+end
+
+task :default => [:test, :deploy] do
 end
