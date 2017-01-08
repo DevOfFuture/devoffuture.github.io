@@ -3,9 +3,9 @@ name: Terry Mafura
 role: 
 avatar: maffsojah.jpg
 github: maffsojah
-email: 
+email: maffsojah1@gmail.com
 linkedin:
 facebook: 
-twitter:
+twitter: maffsojah
 skype:
 ---
