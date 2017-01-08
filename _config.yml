@@ -1,6 +1,6 @@
 # DOF
 title: Developers of Future
-email: dofemailhere
+email:  devoffuture@gmail.com
 github: DevOfFuture
 facebook: DevOfFuture
 twitter: DevOfFuture
@@ -21,7 +21,7 @@ collections:
 gems:
   - jekyll-feed
   - jekyll-seo-tag
-  
+
 exclude:
   - Gemfile
   - Gemfile.lock
