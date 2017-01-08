@@ -3,7 +3,7 @@ set -e # halt script on error
 
 # bundle exec jekyll build
 # echo "Checking the links, files and folders in _site"
- bundle exec jekyll doctor
+# bundle exec jekyll doctor
 # bundle exec htmlproofer ./_site --disable-external
 
 echo "Testing if all links are working or not"
