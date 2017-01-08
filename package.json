@@ -1,0 +1,30 @@
+{
+  "name": "developeroffuture",
+  "version": "1.0.0",
+  "description": "DOF is a vibrant community of developers.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "rake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevOfFuture/dofJekyll.git"
+  },
+  "keywords": [
+    "opensource",
+    "jekyll",
+    "web"
+  ],
+  "author": "José Cage <josejanuario7@gmail.com> (https://josecage.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevOfFuture/dofJekyll/issues"
+  },
+  "homepage": "https://github.com/DevOfFuture/dofJekyll#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^3.0.0"
+  }
+}

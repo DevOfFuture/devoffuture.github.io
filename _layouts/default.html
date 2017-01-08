@@ -1,9 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
+  <!-- Title  -->
+  <title>{{ site.title }}</title>
+  <!--SEO Tags -->
+  {% seo title=false %}
+  <!-- Favicon  -->
+  <link rel="shortcut icon" type="image/png" href="/img/core-img/favicon.ico">
+
+  <!-- ::::::::::::::::::::::::::: All CSS Files ::::::::::::::::::::::::::: -->
+
+  <!-- Style css -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Responsive css -->
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <!--[if IE]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
 <body>
-<section class="content">
-	{{ content }}
+  {% include header.html %}
+  <!-- ::::::::::::::::::::::::::: Welcome Area Start ::::::::::::::::::::::::::: -->
+  <section class="welcome_area" id="home">
+      <div class="welcome_slides">
+          <!-- Single Slide Start -->
+          <div class="single_slide" style="background-image: url(/img/dof.png);">
+              <div class="slide_text">
+                  <div class="table">
+                      <div class="table_cell">
+                          <h2>An Simple Idea can <span>Change the World</span></h2>
+                          <h3>We're all working together; that's the secret!.</h3>
+                          <div class="welcome_btn">
+                              <a class="btn btn-1 btn-default btn-lg active" href="#" role="button">Learn More</a>
+                              <a class="btn btn-2 btn-default btn-lg" href="#" role="button">Get Started</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Slide Start -->
+          <div class="single_slide" style="background-image: url(/img/bg-pattern/bg-1.jpg);">
+              <div class="slide_text">
+                  <div class="table">
+                      <div class="table_cell">
+                          <h2>Dream Big Work Hard <span>Never Give Up</span></h2>
+                          <h3>If you don't drive your business, you will be driven out of business.</h3>
+                          <div class="welcome_btn">
+                              <a class="btn btn-1 btn-default btn-lg active" href="#" role="button">Discover More</a>
+                              <a class="btn btn-2 btn-default btn-lg" href="#contact" role="button">Contact Us</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ::::::::::::::::::::::::::: Welcome Area End ::::::::::::::::::::::::::: -->
+   
+   {% include about.html %}
+   
+   {% include services.html %}
+   
+   {% include members.html %}
+   
+   {% include project.html %}
+   
+   {% include news.html %}
+   
+   {% include plans.html %}
+   
+   {% include testimonial.html %}
+   
+   {% include contact.html %}
+   
+   {% include footer.html %}
 </section>
 </body>
 </html>

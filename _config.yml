@@ -15,15 +15,32 @@
 # in the templates via {{ site.myvariable }}.
 title: Developers of Future
 email: dofemailhere
-description: ""
+github: DevOfFuture
+facebook: DevOfFuture
+twitter: DevOfFuture
+description: "Now is the most advanced humanity is, and the most advanced we’ll ever be. Now is a very fleeting concept... It was here the second you started reading the sentence, now it’s gone! And now it’s here again! Now is present with us for as long as humankind exists."
 baseurl: ""
-url: ""
+url: "https://developersoffuture.github.io"
 
 # Build settings
 markdown: kramdown
-#theme: minima
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+collections:
+  members:
+
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
