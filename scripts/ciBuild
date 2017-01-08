@@ -3,5 +3,8 @@ set -e # halt script on error
 
 bundle exec jekyll build
 echo "Checking the links, files and folders in _site"
-bundle exec htmlproofer ./_site
+
 # bundle exec htmlproofer ./_site --disable-external
+
+echo "Testing if all links are working or not"
+awesome_bot README.md ./_site/*.html --allow-redirect --white-list https://devoffuture.github.io,https://facebook.com,https://github.com
