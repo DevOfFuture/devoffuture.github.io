@@ -4,8 +4,6 @@ role: Fullstack Software Developer (Javascript)
 avatar: PreciousTosin.jpg
 github: PreciousTosin
 email:
-linkedin: 
-facebook:
+linkedin:
 twitter:
-skype:
 ---
