@@ -4,8 +4,6 @@ role:
 avatar: chriemma.jpg
 github: chriemma
 email:
-linkedin: 
-facebook:
+linkedin:
 twitter:
-skype:
 ---

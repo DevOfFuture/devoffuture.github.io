@@ -4,8 +4,6 @@ role:
 avatar: maffsojah.jpg
 github: maffsojah
 email: 
-linkedin:
-facebook: 
+linkedin: 
 twitter:
-skype:
 ---
