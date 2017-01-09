@@ -1,6 +1,6 @@
 ---
 name: Onwuka gideon
-role: Web Developer - Front-end & Back-end 
+role: Fullstack Developer, Security Engineer.
 avatar: dongido001.jpg
 github: dongido001
 email:
