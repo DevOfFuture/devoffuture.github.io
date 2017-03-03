@@ -256,7 +256,7 @@
     }
 
     .logo_area {
-        padding: 32px 0;
+        margin: -32px;
     }
 
     .main_header_area {
